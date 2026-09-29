@@ -507,8 +507,8 @@ const SAMPLE_SUBMISSIONS = generateFakeSubmissions();
 // API in Supabase). The anon key is safe to expose client-side; the RLS
 // policies in schema-aimiamfim.sql are what actually restrict access.
 // ============================================================================
-const SUPABASE_URL = "https://YOUR-PROJECT-REF.supabase.co"; // TODO: fill in
-const SUPABASE_ANON_KEY = "YOUR-ANON-PUBLIC-KEY"; // TODO: fill in
+const SUPABASE_URL = "https://ynwwgtbrktevkqoqizvx.supabase.co"; // TODO: fill in
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inlud3dndGJya3Rldmtxb3FpenZ4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ0NTcyMDcsImV4cCI6MjEwMDAzMzIwN30.GMzFdO3ar0dhBsJvT7pzKc-sDLISvCFn7nN3yxYJy_Y"; // TODO: fill in
 const sb = (typeof supabase !== "undefined" && SUPABASE_URL.indexOf("YOUR-PROJECT-REF") === -1)
   ? supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
   : null;
